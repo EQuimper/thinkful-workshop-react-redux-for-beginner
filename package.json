@@ -7,6 +7,7 @@
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.4",
+    "react-redux-toastr": "^6.2.6",
     "react-router-dom": "^4.1.1",
     "react-router-redux": "next",
     "redux": "^3.6.0",
@@ -17,6 +18,7 @@
     "eslint": "^3.19.0",
     "eslint-config-equimper": "^1.6.4",
     "react-scripts": "0.9.5",
+    "react-test-renderer": "^15.5.4",
     "redux-logger": "^3.0.1"
   },
   "scripts": {

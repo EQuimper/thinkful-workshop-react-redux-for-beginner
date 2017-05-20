@@ -1,0 +1,13 @@
+exports[`user: reducer #login() should log a user 1`] = `
+Object {
+  "isAdmin": false,
+  "isLogged": true,
+}
+`;
+
+exports[`user: reducer #logout() should logout a user 1`] = `
+Object {
+  "isAdmin": false,
+  "isLogged": false,
+}
+`;

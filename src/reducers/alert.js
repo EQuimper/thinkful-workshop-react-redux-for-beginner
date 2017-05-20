@@ -1,16 +1,16 @@
-export const initialState = {
-  isLogged: false,
-  isAdmin: false,
+const initialState = {
+  isShow: false,
+  alertType: null,
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case 'LOGIN':
+    case 'OPEN_ALERT':
       return {
-        ...state,
-        isLogged: true,
+        isShow: true,
+        alertType: action.alertType,
       };
-    case 'LOGOUT':
+    case 'CLOSE_ALERT':
       return initialState;
     default:
       return state;

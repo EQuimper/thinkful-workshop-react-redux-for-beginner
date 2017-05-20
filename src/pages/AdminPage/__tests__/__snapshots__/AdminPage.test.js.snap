@@ -1,0 +1,19 @@
+exports[`test renders correctly 1`] = `
+<div>
+  <h1>
+    Hello World
+  </h1>
+  <p>
+    Hello Thinkful
+  </p>
+  <li>
+    todo1
+  </li>
+  <li>
+    todo2
+  </li>
+  <li>
+    todo3
+  </li>
+</div>
+`;

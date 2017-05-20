@@ -5,7 +5,11 @@ export default class AdminPage extends Component {
   render() {
     return (
       <div>
-        AdminPage
+        <h1>Hello World</h1>
+        <p>Hello Thinkful</p>
+        {this.props.todos.map((todo, i) => (
+          <li key={i}>{todo}</li>
+        ))}
       </div>
     );
   }
